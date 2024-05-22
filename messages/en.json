@@ -1,0 +1,17 @@
+{
+    "IntroSection": {
+        "hello_im": "Hi, my name is",
+        "name": "wen Liu",
+        "short_intro": "I enjoy building things for the web.",
+        "download_cv": "Download CV"
+    },
+    "SectionName": {
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills"
+    },
+    "AboutSection": {
+        "desc": "When I was studying software engineering as an undergraduate at Jiangxi Agricultural University, I took courses such as computer basics, database principles, and Java. I also joined the professor's studio to participate in project development, accumulated extracurricular knowledge, and experienced the software engineering development process. Because of the epidemic and my strong interest in machine learning, I chose to take the postgraduate entrance examination. My first choice was Jinan University majoring in computer science and technology. Unfortunately, a sudden line fire occurred during the math exam, which had a great impact on the exam. Although the total score was 357 and he scored 123 points in the 408 subjects, he only scored 89 points in mathematics and failed in the final re-examination. At first, I wanted to take the exam for another year because I was unwilling to do so, but my guilt towards my parents made me accept the second batch of transfers. Fortunately, Hangzhou Dianzi University gave me the opportunity to experience scientific research. I am very grateful to the teachers and classmates of this school.My supervisor is a professor at the School of Microelectronics of Hangzhou Dianping University, and his research direction is molecular dynamics combined with machine learning. During my first year of graduate school, she asked me to participate in the project Prediction of tensile strength of friction stir welding (FSW) aluminum alloy based on machine learning. I gained a wealth of scientific research experience and a deep understanding of the practical application of machine learning. During my second year of graduate school, I participated in the development of a customized electrochemical workstation applet for the Hydrogen Energy and Carbon Neutrality Laboratory and successfully applied it in scientific research. In addition, I also independently developed a small program to control the programmable power supply to implement automated anodizing and stability testing.I really enjoy the challenge of programming and working with a team to develop projects and solve complex problems brings me great satisfaction. I am proficient in using technologies such as Spring, SpringBoot and MyBatis, and have an in-depth understanding of Redis and MySQL. At the same time, I also master technologies such as React, Vue3 and Next.js. In my free time, I like cycling and have completed single-day races around Qiandao Lake (136km), around Taihu Lake (350km), and around Zhoushan (160km). Cycling not only exercised my body, but also cultivated my perseverance."
+    }
+}
