@@ -9,7 +9,9 @@ import typingSpeedImage from "@/public/typing-speed.png";
 import breadditImage from "@/public/breaddit.png";
 import ecImage from "@/public/ec-image.png";
 import chargeImage from "@/public/charge-image.png";
-
+import powerImage from "@/public/power-image.png";
+import natmImage from "@/public/natm-image.png";
+import blogImage from "@/public/blog-image.png";
 
 export const links = [
     {
@@ -56,21 +58,6 @@ export const experiencesData = [
         icon: React.createElement(LuGraduationCap),
         date: "2022 Sep - 2025 May",
     },
-    // {
-    //     title: "Frontend Intern",
-    //     location: React.createElement("span", {},
-    //         React.createElement("a", {
-    //             href: "https://www.nio.com/",
-    //             style: { textDecoration: 'underline' },
-    //             target: "_blank"
-    //         }, "NIO Inc."),
-    //         " Wuhan, China"
-    //     ),
-    //     description:
-    //         "Developed NIO's third-generation station list and detail pages using Vue3, TypeScript, and Baidu Maps API. Implemented role-based access control for the Task Wizard page, enhancing system security. Collaborated effectively within a Jira-managed environment, utilizing Jenkins for deployment processes.",
-    //     icon: React.createElement(FaVuejs),
-    //     date: "2022 Aug - 2022 Dec",
-    // },
     {
         title: "Hangzhou University of Electronic Science and Technology Shangyu Science and Engineering Research Institute Co., Ltd.",
         location: "Shaoxin , Shangyu",
@@ -105,13 +92,6 @@ export const experiencesDataZn = [
         "icon": React.createElement(FaVuejs),
         "date": "2022年9月 - 2023年2月"
     },
-    // {
-    //     "title": "前端开发",
-    //     "location": "武汉大学大数据研究院",
-    //     "description": "使用umi（React框架）和Ant Design Pro开发和维护Finknow，一个金融知识图谱查询和分析平台。利用基于G6的React图分析工具包graphin开发了股权网络穿透图，增强了数据可视化功能。",
-    //     "icon": React.createElement(FaReact),
-    //     "date": "2022年5月 - 2022年7月"
-    // },
     {
         "title": "江西农业大学（软件工程）  学士",
         "location": "南昌",
@@ -126,6 +106,19 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
     {
+        title: "power_supply",
+        title_zh: '程控电源',
+        description:
+            "This project develops a control system for anodizing TiO2 nanotubes. It includes a user-friendly power supply class for automated preparation, voltage and current control, data recording, and executing predefined oxidation processes.",
+        desc_zh: "这个项目是一个TiO2纳米管阳极氧化过程的控制系统。经过模块化开发，设计了电源类，提供了一个简单的阳极氧化接口，只需输入简单的参数就可以实现自动化制备。它包括用于控制电源的功能模块，以及用于执行阳极氧化过程的模块。通过该系统，可以轻松地控制电压和电流，记录电压、电流和功率数据，并执行预定义的氧化过程。",
+        tags: ["python", "modbus_tk", "serial", 'Independent development'],
+        // typingSpeedImage
+        imageUrl: powerImage,
+        projectUrl: 'https://github.com/lw1725908379/power_supply.git',
+        // 上线后换~
+        demoUrl: 'https://wen-liu-personal-information-introduction-ds9mfvjho.vercel.app',
+    },
+    {
         title: "potential-start",
         title_zh: '电化学测试小程序',
         description:
@@ -136,7 +129,7 @@ export const projectsData = [
         imageUrl: ecImage,
         projectUrl: 'https://gitee.com/liuwenspecial/my-potential-start',
         // 上线后换~
-        demoUrl: 'https://joy-typing-speed-game.vercel.app/',
+        demoUrl: 'https://wen-liu-personal-information-introduction-ds9mfvjho.vercel.app',
     },
     {
         title: "ChargingStationManage",
@@ -147,24 +140,30 @@ export const projectsData = [
         imageUrl: chargeImage,
         projectUrl: 'https://gitee.com/liuwenspecial/ChargingStationManage',
         //TODO:
-        demoUrl: 'https://new-game-hub.vercel.app/',
-
-
+        demoUrl: 'https://wen-liu-personal-information-introduction-ds9mfvjho.vercel.app',
     },
-    // {
-    //     title: "Breaddit",
-    //     title_zh: "社交新闻论坛",
-    //     description:
-    //         `A modern full-stack Reddit clone features infinite scrolling, secure authentication via NextAuth and Google, and a custom feed for authenticated users. It utilizes Upstash Redis for advanced caching and React-Query for efficient data fetching, ensuring a responsive and user-friendly experience with optimistic updates.
-    //         `,
-    //     desc_zh: "一个现代化的全栈Reddit克隆",
-    //     tags: ["JavaScript", "HTML", "CSS3"],
-    //     imageUrl: breadditImage,
-    //     projectUrl: 'https://github.com/Codefreyy/Breaddit',
-    //     demoUrl: '',
-    // },
-
-
+    {
+        title: "NucleicAcidTestManagement",
+        title_zh: '基于SpringBoot的社区疫情管理系统',
+        description: "This is a community epidemic management system based on the B/S architecture, developed using the SpringBoot framework with Java, Freemarker, and SpringBoot. It includes user, personnel, and address management, as well as nucleic acid testing records.",
+        desc_zh: "这是一个基于B/S架构的社区疫情管理系统，使用SpringBoot框架开发，采用Java语言、Freemarker和SpringBoot等技术。使用Idea作为开发工具，MySql作为数据库工具。系统实现了用户管理、人员管理、地址管理和核酸检测记录等功能，有助于社区核酸检测的统计工作。",
+        tags: ["B/S", "SpringBoot", "MySQL", "Redis", "Freemaker", "Layui", "Bootstrap"],
+        imageUrl: natmImage,
+        projectUrl: 'https://github.com/lw1725908379/NucleicAcidTestManagement.git',
+        //TODO:
+        demoUrl: 'https://github.com/lw1725908379/NucleicAcidTestManagement.git',
+    },
+    {
+        title: "gitHub Blog",
+        title_zh: '以github为托管的个人博客',
+        description: "Personal blog hosted on GitHub",
+        desc_zh: "以github为托管的个人博客",
+        tags: ["B/S", "SpringBoot", "MySQL", "Redis", "Freemaker", "Layui", "Bootstrap"],
+        imageUrl: blogImage,
+        projectUrl: 'https://github.com/lw1725908379/blog.git',
+        //TODO:
+        demoUrl: 'https://blog-i9gm-c3rtassxj-lw1725908379s-projects.vercel.app',
+    },
 ]
 
 export const skillsData = [
