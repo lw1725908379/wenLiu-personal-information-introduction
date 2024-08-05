@@ -109,7 +109,7 @@ export const projectsData = [
         title: "ChargingStationManage",
         title_zh: '充电站管理系统',
         description: "A responsive game grid application that offers search and filter functionality, and features infinite scrolling using React Query. It also includes robust form validation with Zod and efficient state management with Zustand.",
-        desc_zh: "该项目通过多角色管理系统、高效的图片处理与审核、敏感词管理、延迟队列调度和ES搜索功能，结合Spring Boot、Spring Cloud、Docker等技术，提供全面优化的充电桩预约及管理服务。",
+        desc_zh: "该项目通过多角色管理系统、高效的图片处理与审核、敏感词管理、延迟队列调度和ES搜索功能，结合Spring Boot、Spring Cloud、Docker等技术，提供全面优化的充电桩预约及管理服务。(用戶名：visitor 密碼：visitor)",
         tags: ["B/S", "SpringBoot", "SpringCloud", "MySQL", "Redis", "MongoDB", "Minio", "Kafaka", "ES"],
         imageUrl: chargeImage,
         projectUrl: 'https://gitee.com/liuwenspecial/ChargingStationManage',
