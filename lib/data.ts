@@ -90,7 +90,7 @@ export const experiencesDataZn = [
         "location": "绍兴，上虞",
         "description": "协助收集企业的摩擦搅拌焊（FSW）工艺试验记录并测量其抗拉强度。处理原始数据，完成特征工程。建立三维瞬态模型，将原始数据转化为物理量。分别对原始数据和计算后物理量进行线性模型的建立。最终得到温度和最大剪切应力对材料抗拉强度影响最显著。KNN模型在7:3数据集比例下达到最佳性能（原始参数数据集准确度为83.3%，计算后数据集达90%）。",
         "icon": React.createElement(FaVuejs),
-        "date": "2022年9月 - 2023年2月"
+        "date": "2022年9月 - 2023年12月"
     },
     {
         "title": "江西农业大学（软件工程）  学士",
@@ -105,6 +105,17 @@ export const experiencesDataZn = [
 export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
+    {
+        title: "ChargingStationManage",
+        title_zh: '充电站管理系统',
+        description: "A responsive game grid application that offers search and filter functionality, and features infinite scrolling using React Query. It also includes robust form validation with Zod and efficient state management with Zustand.",
+        desc_zh: "该项目通过多角色管理系统、高效的图片处理与审核、敏感词管理、延迟队列调度和ES搜索功能，结合Spring Boot、Spring Cloud、Docker等技术，提供全面优化的充电桩预约及管理服务。",
+        tags: ["B/S", "SpringBoot", "SpringCloud", "MySQL", "Redis", "MongoDB", "Minio", "Kafaka", "ES"],
+        imageUrl: chargeImage,
+        projectUrl: 'https://gitee.com/liuwenspecial/ChargingStationManage',
+        //TODO:
+        demoUrl: 'http://www.wenliu.site',
+    },
     {
         title: "power_supply",
         title_zh: '程控电源',
@@ -132,22 +143,11 @@ export const projectsData = [
         demoUrl: 'https://wen-liu-personal-information-introduction-ds9mfvjho.vercel.app',
     },
     {
-        title: "ChargingStationManage",
-        title_zh: '充电站管理系统',
-        description: "A responsive game grid application that offers search and filter functionality, and features infinite scrolling using React Query. It also includes robust form validation with Zod and efficient state management with Zustand.",
-        desc_zh: "开发了一个充电桩管理系统，采用B/S架构，使用SpringBoot、MySQL和Redis技术，包含运营商管理、充电桩管理、预约管理等模块，提高了管理和服务效率。",
-        tags: ["B/S", "SpringBoot", "MySQL", "Redis", "Vue3.0", "ElementUI-Plus"],
-        imageUrl: chargeImage,
-        projectUrl: 'https://gitee.com/liuwenspecial/ChargingStationManage',
-        //TODO:
-        demoUrl: 'https://wen-liu-personal-information-introduction-ds9mfvjho.vercel.app',
-    },
-    {
         title: "NucleicAcidTestManagement",
         title_zh: '基于SpringBoot的社区疫情管理系统',
         description: "This is a community epidemic management system based on the B/S architecture, developed using the SpringBoot framework with Java, Freemarker, and SpringBoot. It includes user, personnel, and address management, as well as nucleic acid testing records.",
         desc_zh: "这是一个基于B/S架构的社区疫情管理系统，使用SpringBoot框架开发，采用Java语言、Freemarker和SpringBoot等技术。使用Idea作为开发工具，MySql作为数据库工具。系统实现了用户管理、人员管理、地址管理和核酸检测记录等功能，有助于社区核酸检测的统计工作。",
-        tags: ["B/S", "SpringBoot", "MySQL", "Redis", "Freemaker", "Layui", "Bootstrap"],
+        tags: ["B/S", "SpringBoot", "MySQL", "Redis", "Freemaker"],
         imageUrl: natmImage,
         projectUrl: 'https://github.com/lw1725908379/NucleicAcidTestManagement.git',
         //TODO:
@@ -168,23 +168,32 @@ export const projectsData = [
 
 export const skillsData = [
     "JAVA",
+    "Python",
     "Spring",
     "SpringMVC",
     "SpringBoot",
+    "SpringCloud",
+    "Docker",
     "MyBatis",
     "Mysql",
     "Redis",
+    "MongDB",
     "Maven",
-    "NACOS",
-    "PYTHON",
+    "Nacos",
+    "Kafka",
+    "ES",
+    "Minio",
     "HTML",
     "CSS",
     "JavaScript",
-    "React",
     "Next",
     "Vue2",
     "Vue3",
     "Node",
     "Git",
     "Github",
+    "sklearn",
+    "DFA",
+    "OCR",
+    "3dMax"
 ] 

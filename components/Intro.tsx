@@ -114,7 +114,7 @@ export default function Intro() {
         {activeLocale === "en" && (
           <p>
             My focus is{" "}
-            <span className="italic font-bold">React (Next.js)</span>.
+            <span className="italic font-bold">SpringBoot</span>.
           </p>
         )}
       </motion.h1>
